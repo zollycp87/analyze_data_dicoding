@@ -3,7 +3,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 # Load dataset
-day_bike_df = pd.read_csv("../data/day.csv")
+day_bike_df = pd.read_csv("data/day.csv")
 
 # Header
 st.title('Bike Rental Dashboard')
